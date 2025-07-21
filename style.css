@@ -1,0 +1,72 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: white;
+}
+h1 {
+	position: fixed;
+	margin-left: 600px;
+	}
+
+.feed-reel {
+	background: white ;
+	position: fixed;  
+    top: 50px;       
+	margin-left: 400px;
+	margin-bottom: 200px;
+    width: 600px;  
+	height: 800px;  
+    background-color: white;    
+	border: 1px solid darkblue;
+    padding: 10px;
+    overflow-y: scroll;
+	
+}
+.header {
+	margin-left: 10px;
+	width: 300px;
+	
+	}
+.user {
+	display: flex;
+	
+	}
+.date {
+	width: 50px;
+	margin-right: 10px;
+	margin-left: 300px;
+    color: darkgray; 
+		 }
+.cute-puppy {
+	width: 600px;
+    height: 500px;
+}
+.firstphoto {
+	border: 2px solid rgb(71, 11, 176);
+	width: 600px;
+}
+.pug {
+	width: 600px;
+	height: 500px;
+}
+.secondphoto {
+	border: 2px solid rgb(71, 11, 176);
+	width: 600px;
+}
+.thirdphoto {
+	border: 2px solid rgb(71, 11, 176);
+	width: 600px;
+}
+.sunset {
+	width: 600px;
+	height: 500px;}
+.fourthphoto {
+	border: 2px solid rgb(71, 11, 176);
+	width: 600px;
+}
+.bowling {
+	width: 600px;
+	height: 500px;}
+.body{
+	margin-bottom: 10px;
+}
