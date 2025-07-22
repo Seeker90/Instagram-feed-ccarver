@@ -1,16 +1,12 @@
 *{
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
-    background-color: white;
+    background-color: black;
+ 
 }
-h1 {
-	position: fixed;
-	margin-left: 600px;
-	}
-
-.feed-reel {
-	background: white ;
-	position: fixed;  
+.post{
+    background: white;
+    position: fixed;  
     top: 50px;       
 	margin-left: 400px;
 	margin-bottom: 200px;
@@ -19,54 +15,27 @@ h1 {
     background-color: white;    
 	border: 1px solid darkblue;
     padding: 10px;
-    overflow-y: scroll;
-	
+    }
+.post-header {
+    height: 20px;
+    width: 550px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
 }
-.header {
-	margin-left: 10px;
-	width: 300px;
-	
-	}
-.user {
-	display: flex;
-	
-	}
-.date {
-	width: 50px;
-	margin-right: 10px;
-	margin-left: 300px;
-    color: darkgray; 
-		 }
-.cute-puppy {
-	width: 600px;
-    height: 500px;
-}
-.firstphoto {
-	border: 2px solid rgb(71, 11, 176);
-	width: 600px;
-}
-.pug {
-	width: 600px;
-	height: 500px;
-}
-.secondphoto {
-	border: 2px solid rgb(71, 11, 176);
-	width: 600px;
-}
-.thirdphoto {
-	border: 2px solid rgb(71, 11, 176);
-	width: 600px;
-}
-.sunset {
-	width: 600px;
-	height: 500px;}
-.fourthphoto {
-	border: 2px solid rgb(71, 11, 176);
-	width: 600px;
-}
-.bowling {
-	width: 600px;
-	height: 500px;}
-.body{
-	margin-bottom: 10px;
+.logo { 
+    height: 20px;
+    width: 20px;
+    }
+.title{
+    background-color: white;
+    height: 20px;
+    width: 510px;
+    border: 1px dotted red;
+    }
+.menu {
+height: 20px;
+width: 20px;
+background-color: white;
+padding-top: 5px;
 }
