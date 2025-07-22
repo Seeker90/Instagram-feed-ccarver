@@ -1,27 +1,28 @@
-*{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
+body {
     background-color: black;
- 
+    position: auto;
+
 }
+   
 .post{
     background: white;
-    position: fixed;  
+    position: auto;  
     top: 50px;       
 	margin-left: 400px;
-	margin-bottom: 200px;
-    width: 600px;  
-	height: 800px;  
+	margin-bottom: 400px;
+    width: 400px;  
+	height: 500px;  
     background-color: white;    
 	border: 1px solid darkblue;
-    padding: 10px;
+    
     }
 .post-header {
     height: 20px;
-    width: 550px;
+    width: 350px;
     padding: 5px;
     background-color: white;
     display: flex;
+    padding-left: 25px;
 }
 .logo { 
     height: 20px;
@@ -30,12 +31,22 @@
 .title{
     background-color: white;
     height: 20px;
-    width: 510px;
+    width: 310px;
     border: 1px dotted red;
+    }
+.title-1{
+    margin-bottom: 0;
+    margin-top:0;
+    font-weight: bold;
+    font-size: 9px;
+    }
+.title-2{
+    margin-top: 0;
+       font-size: 9px;
     }
 .menu {
 height: 20px;
 width: 20px;
 background-color: white;
-padding-top: 5px;
+
 }
