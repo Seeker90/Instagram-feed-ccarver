@@ -3,13 +3,16 @@ body {
     position: auto;
 
 }
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
    
 .post{
     background: white;
-    position: auto;  
     top: 50px;       
-	margin-left: 400px;
-	margin-bottom: 400px;
+	margin: auto;
     width: 400px;  
 	height: 625px;  
     background-color: white;    
@@ -52,9 +55,8 @@ background-color: white;
 
 }
 .sunset{
-    width: 380px;
+    width: 400px;
     height: 280px;
-    padding: 10px;
 }
 .body-icons {
     display: flex;
