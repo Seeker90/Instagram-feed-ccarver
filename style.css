@@ -1,14 +1,10 @@
 body {
     background-color: black;
     position: auto;
+    font-family: 'Roboto', sans-serif;
 
 }
-.manufacturing-consent-regular {
-  font-family: "Manufacturing Consent", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-   
+  
 .post{
     background: white;
     top: 50px;       
